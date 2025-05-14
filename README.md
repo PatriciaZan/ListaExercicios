@@ -13,7 +13,7 @@ Instalada por meio da biblioteca de extensões do VSCode.<br>
 &nbsp; Recomenda a configuração para a condição ***"Run on Terminal"*** para receber inputs.
 - A utilização da biblioteca [prompt-sync](https://www.npmjs.com/package/prompt-sync)<br>
 &nbsp; Utilizada para receber e capturar dados vindos do input por parte do usuário.<br>
-&nbsp; Instalada no repositório junto aos arquivos dos exercícios(ListaExerciciosObrigatoria01):
+&nbsp; **Instalada dentro do diretório '/ListaExerciciosObrigatoria01'** junto aos arquivos dos exercícios:
 >`npm install prompt-sync`
 
 - Com o ambiente local configurado basta:<br>
