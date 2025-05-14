@@ -7,8 +7,6 @@
 // Reprovado abaixo de 3
 
 const prompt = require('prompt-sync')();
-
-
 console.log(`Digite uma nota`);
 let nota = Number(prompt("NOTA: "));
 
@@ -22,5 +20,4 @@ if(!Number.isNaN(nota)){
     }
 } else{
     console.log(`Nota ${nota} inválida`);
-    
 }

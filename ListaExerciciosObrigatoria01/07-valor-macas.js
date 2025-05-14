@@ -8,15 +8,15 @@ let numeroMacas = Number(prompt('Quantas maçãs irá comprar? : '))
 
 // Checa se são numeros
 if(!Number.isNaN(numeroMacas) ){
-    // checa se são inteiros, não tem como comprar 1.5 maças
+    // checa se são inteiros, não tem como comprar 1.5 maças...
     if(numeroMacas % 1 !== 0){
         console.log('Inválido');
 
     } else{
-        numeroMacas < 12 ? console.log(`O Valor total das ${numeroMacas} maçãs é R$ ${(numeroMacas * 0.30).toFixed(2)}`) : 
-                           console.log(`O Valor total das ${numeroMacas} maçãs é R$$${(numeroMacas* 0.25).toFixed(2)}`)
+        numeroMacas < 12 ? 
+            console.log(`O Valor total das ${numeroMacas} maçãs é R$ ${(numeroMacas * 0.30).toFixed(2)}`) : 
+            console.log(`O Valor total das ${numeroMacas} maçãs é R$$${(numeroMacas* 0.25).toFixed(2)}`)
     }
-
 } else{
     console.log('Numero inválido');
 }

@@ -2,7 +2,6 @@
 // determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade)
 // utilizando if-else.
 
-
 const prompt = require('prompt-sync')();
 let altura = prompt("Qual a sua altura? (Em Metros) : ");
 let peso = prompt('Qual o seu peso? (Em kg): ')
@@ -33,9 +32,6 @@ if(IMC <= 18.5){
     console.log(`Seu IMC é ${IMC}`);
     console.log(`Obesidade grau III`);
 }
-
-
-
 
 
 // Referência dos valores IMC se encontram em:

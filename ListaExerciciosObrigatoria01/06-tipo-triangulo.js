@@ -23,7 +23,6 @@ if(Number.isNaN(ladoA + ladoB + ladoC)){
   // Verifica se é um triangulo válido
 } else if(ladoA + ladoB > ladoC || ladoB + ladoC > ladoA || ladoA + ladoC > ladoB){
     //console.log('Triangulo');
-
     if(ladoA == ladoB && ladoB == ladoC){
         console.log(`Todos os lados são iguais => EQUILÁTERO`);
     } else if(ladoA == ladoB || ladoB == ladoC){

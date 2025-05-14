@@ -4,18 +4,18 @@
 
 const prompt = require('prompt-sync')();
 
-let num1 = Number(prompt('Numero 1: '))
-let num2 = Number(prompt('Numero 2: '))
+let num1 = Number(prompt('Número 1: '));
+let num2 = Number(prompt('Número 2: '));
 
 // FORMA 1
 let crescente = []
 if(!Number.isNaN(num1, num2)){
-    num1 < num2 ? crescente = [num1, num2] : crescente = [num2, num1]
+    num1 < num2 ? crescente = [num1, num2] : crescente = [num2, num1];
     console.log(`Forma 1: ${crescente}`);
 }
 
 // FORMA 2
-let crescente2 = [num1, num2]
+let crescente2 = [num1, num2];
 crescente2.sort((a, b) => a - b);
 console.log(`Forma 2: ${crescente2}`);
 

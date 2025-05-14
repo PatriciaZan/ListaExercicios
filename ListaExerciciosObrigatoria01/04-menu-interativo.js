@@ -24,9 +24,7 @@ switch(opcao){
         console.log(`Todas informações aqui disponíveis`);
         break
     default:
-        console.log(`Opção inválida!`);
-        
-        
+        console.log(`Opção inválida!`);    
 }
 
 

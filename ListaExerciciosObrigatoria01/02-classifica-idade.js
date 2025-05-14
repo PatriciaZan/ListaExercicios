@@ -3,7 +3,6 @@
 // utilizando uma estrutura de controle if-else.
 
 const prompt = require('prompt-sync')();
-
 console.log(`Digite uma idade`);
 let idade = Number(prompt("IDADE: "));
 
@@ -22,7 +21,6 @@ if(!Number.isNaN(idade)){
     } else if(idade < 14){
         console.log(`É uma criança, sua idade: ${idade}`);
     }
-
 } else{
     console.log(`A idade ${idade} é inválida!`); 
 }
